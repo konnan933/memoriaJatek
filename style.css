@@ -1,0 +1,22 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background: url(kepek/hatter.jpg);
+}
+.container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.container div {
+  width: 20%;
+  border: black solid 1px;
+}
+.container div img {
+  width: 100%;
+}
+
